@@ -1,0 +1,13 @@
+{
+  "name": "tauri",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cd ../frontend && \"$npm_execpath\" run dev",
+    "build": "cd ../frontend // \"$npm_execpath\" run build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.14"
+  }
+}
